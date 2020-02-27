@@ -1,0 +1,16 @@
+{
+  "name": "pryv-ga-loader",
+  "version": "1.0.0",
+  "description": "Loads a Pryv account with Google Analitcs CSV exports",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "pryv": "file:../lib-javascript-light",
+    "slugify": "^1.3.6"
+  },
+  "author": "Perki <perki@pryv.com>",
+  "license": "BSD-3-Clause"
+}
